@@ -8,5 +8,8 @@ namespace WindowsFormsApp8
 {
     internal interface IView
     {
+        void SetInFild(int i, int j);
+
+        void PaintShape(int i, int j);
     }
 }
