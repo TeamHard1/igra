@@ -8,5 +8,6 @@ namespace WindowsFormsApp8
 {
     internal interface IController
     {
+
     }
 }
