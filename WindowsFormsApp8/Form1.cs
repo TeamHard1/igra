@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp8
 {
-    public partial class Form1 : Form
+    public partial class Form1 : Form, IView
     {
         private IView view;
         private IController controller;
@@ -23,7 +23,7 @@ namespace WindowsFormsApp8
 
         public void PaintShape(int i, int j)
         {
-            throw new NotImplementedException();
+            
         }
 
         public void SetInFild(int i, int j)
@@ -34,6 +34,13 @@ namespace WindowsFormsApp8
         private void Form1_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            dataGridView1.ColumnCount = 5;
+            dataGridView1.RowCount = 7;
+           
         }
     }
 }

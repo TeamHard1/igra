@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WindowsFormsApp8
 {
-    internal interface IModel
+    internal interface IModel 
     {
     }
 }
