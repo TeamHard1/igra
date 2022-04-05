@@ -16,6 +16,10 @@ namespace WindowsFormsApp8
 
         delegate void Delegate(int i, double j);
 
+
+        int s = 0; 
+
+
     }
-    
+
 }
